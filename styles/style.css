@@ -1,0 +1,625 @@
+/* left side of the nav-bar */
+
+.logo{                /* LinkedIn Logo here and its dimetion */
+    height: 45px;
+    width: 45px;
+    margin-left: 10em;
+}
+
+.left-icons{         /* Both the logo and the search bar is at leftside div */
+    display: flex;
+    /* align-items: center; */
+
+    padding: 15px;
+}
+
+.left-icons > input{
+    padding: 0px 5px;
+    width: 20em;
+    border: none;
+    outline: none;
+    background: rgb(177, 207, 241);
+    border-radius: 10px;
+}
+
+
+/* right side of the nav-bar */
+
+
+.right-icons {       /* adjustibg the bunch of icon in the right side of the nav-bar */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    margin-right: 15em;
+    /* border-right: 1px solid #ccc; */
+}
+
+.left-part-of-right > a{  /* styling icons color and align the text-beloow to center of each icon */
+    text-align: center;
+    text-decoration: none;
+    color: rgb(97, 93, 93);
+}
+
+/* giving border to the whole left part of the right side  */
+
+.left-part-of-right{
+
+    border-right: 1px solid #ccc;
+
+}
+.fa-solid{         /* class of the icons added from the "Fontawesome" website */
+
+    padding: 10px;    /* give padding to each icon from each other  */
+
+
+}
+
+.icon-name{         /* formating and styling the text beloow the each icon */
+    margin-top: 5px;
+    text-align: center; */
+    text-transform:lowercase;
+    font-size: 9px;
+}
+
+/* .right-pic{
+
+    width: 45px;
+    height: 45px;
+    position: relative;
+
+
+} */
+
+ .right-pic > img{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    /* margin-right: 20em; */
+    /* position: relative;
+    right: 60px; */
+}
+
+/* the nav-bar */
+
+nav{                /* give styling to the whole navigation bar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+
+
+/* CSS FOR CONTENT SECTION  */
+
+
+.content{
+    height: 1700px;
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(219, 217, 200);
+    display: grid;
+    grid-template-columns: 15em 550px 550px 550px 15em 15em 15em;
+    grid-template-rows: 15em 550px 550px 550px 15em 15em 15em;
+    grid-gap: 10px;
+
+}
+
+.content > div{
+
+    background-color: #fff;
+}
+
+/* left-side panel */
+
+.panel-1{
+    grid-row: 1/3;
+    height: 47em;
+    width: 15em;
+    border-radius: 9px;
+    margin-top: 1em;
+    margin-left: 14.5em;
+
+
+}
+
+/* divide this panel panel-1 into four consicutive DIVs */
+
+/* 1st div of the panel-1 is col-grad which follow only the background gradient color */
+
+.col-grad{
+    width: 15em;
+    height: 72px;
+    /* border: 1px solid black; */
+    border-radius: 9px 9px 0 0;
+    background-image: linear-gradient(130deg, #8A2387 , #E94057, #F27121);
+}
+
+/* here is the edit of the added profile pic with the class name of "prof" */
+
+.prof{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-top: -25px;
+
+}
+
+
+/* this is th class name for 2nd div of the panel-1 */
+.info{
+    text-align: center;
+}
+
+
+/* styling the content inside this div */
+.info > h5{
+    font-size: 15px;
+
+}
+
+.info > p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(122, 121, 121);
+}
+
+
+/* here comes the 3rd div of this panel-1 */
+/* styling the conent inside it */
+.grey{
+    font-size: 12px;
+    color: rgb(122, 121, 121);
+    margin-top: 9px;
+    margin-left: 6px;
+}
+
+.info2 > h6{
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.info2 > p{
+    margin-left: 6px;
+
+}
+
+.blue{
+    color: blue;
+    text-align: end;
+
+}
+
+.info2 > h3{
+    text-align: end;
+    margin-right: 7em;
+    font-weight: 400;
+    margin-top: -27px;
+}
+
+
+.info2{
+    display: grid;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    border-radius: 0 0 9px 9px;
+}
+
+/* 4th and last div of the panel-1 */
+
+.info3{
+    border-top: 1px solid rgb(156, 156, 156);
+    border-radius: 9px; 
+    margin-top: 17px;
+}
+
+.info3 li{
+    list-style-type: none;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.info3 p{
+    font-size: 11px;
+    margin-left: 6px;
+    margin-top: 15px;
+    color: rgb(141, 137, 137);
+}
+
+
+/* the inside-div for the arrangenemt of added icons and content in a grid */
+.side-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 34px);
+    grid-template-rows: repeat(2, 25px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* middle-1st-pannel */
+
+.panel-2{
+    width: 579px;
+    height: 8.6em;
+    border-radius: 9px;
+    margin-left: 15em;
+    margin-top: 1em;
+}
+
+.upper-info{
+    display: flex;
+}
+
+.prof2{
+    width: 55px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 50%;
+
+}
+
+.upper-info > input{
+
+    margin-left: 12px;
+    margin-top: 14px;
+    width: 80%;
+    padding: 9px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+
+.gallary{
+    display: flex;
+}
+
+.gallary > img{
+    width: 37px;
+    height: 37px;
+    margin: 20px;
+    margin-left: 25px;
+
+    /* border-radius: 50%;  */
+}
+
+.gallary > p{
+    margin-left: -5px;
+    margin-top: 2em;
+    font-size: 15px;
+    color: rgb(172, 171, 171);
+}
+
+
+
+/* middle-2nd-panel for the posts */
+
+.panel-3{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    border-radius: 9px;
+    margin-left: 15em;
+    margin-top: -5em;
+    width: 579px;
+    height: 480px;
+}
+
+.post-head-1{
+    display: grid;
+    grid-template-columns: 5em 27em 0em 278px 24px;
+    grid-template-rows: 28px 13px;
+    
+}
+.p1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    font-size: 12px;
+    color: rgb(105, 104, 104);
+} 
+
+.p2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    font-size: 12px;
+    color: rgb(110, 108, 108);
+}
+
+.reaction{
+    display: flex;
+    justify-content: flex-start;
+    
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.give-reaction{
+    display: grid;
+    grid-template-columns: 2em 3em 2em 5.5em 2em 3.5em 2em 2em;
+    padding: 10px;
+}
+
+.give-reaction > p{
+    color: #555454;
+    margin-top: 3px;
+
+}
+
+
+
+
+
+
+
+
+/* middle-3rd-panel for the post */
+
+
+.panel-4{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    border-radius: 9px;
+    margin-left: 15em;
+    margin-top: -8.9em;
+    width: 579px;
+    height: 480px;
+
+
+}
+.post2-head{
+    display: grid;
+    grid-template-columns: 5.7em 27em 2em 278px 24px;
+    grid-template-rows: 28px 13px;
+}
+
+.p3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    font-size: 12px;
+    color: rgb(105, 104, 104);
+
+}
+
+.p4{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    font-size: 12px;
+    color: rgb(110, 108, 108);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* right-side-1st-panel */
+
+.panel-5{
+    width: 15em;
+    height: 17em;
+    margin-left: 17em;
+    margin-top: 1em;
+    border-radius: 9px;
+
+}
+
+
+.news-head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.news-head > img{
+    width: 16px;
+    height: 16px;
+    margin: 15px;
+    margin-left: 4em;
+}
+
+.news-list > ul > li{
+    margin-left: 2em;
+    font-size: 17px;
+    list-style-type: disc;
+    margin-top: 3px;
+    
+}
+
+.news-list > ul > p{
+    font-size: 13px;
+    margin-left: 2.7em;
+    color: rgb(163, 162, 162);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rigth-side-2nd-panel */
+
+.panel-6{
+    grid-column: 3/4;
+    width: 15em;
+    height: 10em;
+    margin-left: 17em;
+    margin-top: 3.5em;
+    border-radius: 9px;
+}
+
+.viwed-heade{
+    display: flex;
+}
+
+.viwed-heade > h5{
+    font-size: 12px;
+}
+
+.viwed-heade > img{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 0em;
+}   
+
+.viwed-list > ul > li{
+    margin-left: 2em;
+    font-size: 15px;
+    list-style-type: disc;
+    margin-top: 8px;
+
+}
+
+.viwed-list > ul > p{
+    font-size: 13px;
+    margin-left: 2.7em;
+    color: rgb(163, 162, 162);
+}   
+
+/* rigth-side-3rd-panel */
+
+.panel-7{
+    grid-column: 3/4;
+
+    width: 15em;
+    height: 24em;
+    margin-left: 17em;
+    margin-top: -20.3em;
+    border-radius: 9px;
+
+}
+
+/* styling the inside conent */
+
+
+/* this is the div for the heading of the content */
+.feed-head{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/* styling for the i image added to the right most side of the heading  */
+.feed-head > img{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 6em;
+}    
+
+
+/* styling for the icon, name, and company type and follow button   inside the list content */
+.linkedin{
+    display: grid;
+    grid-template-columns: 49px 134px 12px ;
+    grid-template-rows: 29px 10px;
+    margin-top: 18px;
+}
+
+.linkedin > p{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.linkedin > button{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+
+
+}
+
+.myntra{
+    display: grid;
+
+    grid-template-columns: 53px 134px 12px ;
+    grid-template-rows: 17px 20px;
+    margin-top: 18px;
+}
+
+.myntra > p{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    font-size: 12px;
+
+}
+
+.myntra > button{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff; cursor: pointer;
+
+}
+
+.Unilever{
+    display: grid;
+    grid-template-columns: 54px 134px 12px ;
+    grid-template-rows: 17px 34px;
+    margin-top: 18px;
+
+}
+
+.Unilever > p{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    font-size: 12px;
+}
+
+.Unilever > button{
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+     cursor: pointer;
+}
